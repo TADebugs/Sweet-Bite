@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskerville&display=swap');
+
+html{
+	overflow-x: hidden; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+}
+
+
+h2 {
+            font-family: 'Baskerville', serif;
+            color: #B14D0B;
+            padding-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+
+
+p{
+	font-family: 'Baskerville', serif;
+            color: #F4F4F4;
+            padding-bottom: 10px;
+            font-size: 1.3rem;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #333;
+    overflow: hidden;
+    transition: all 0.3s ease;
+	height:11vh;
+	display: flex;
+    width: 100%;
+	align-items: center;
+	justify-content:space-between;
+	box-sizing: border-box;
+	padding :0 20px;
+
+}
+
+.menubar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menubar ul {
+    list-style-type: none;
+	display: flex;
+	gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.menubar ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menubar ul li a {
+    display: block;
+    color: #FF7C2E;
+    text-align: center;
+	border-radius: 10px;
+	transition:1.5s ease;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.menubar ul li:hover {
+    background-color: rgba(240,176,112,0.8);
+	max-height:50px;
+	border-radius: 10px;
+    color: #F83300;
+}
+
+.menubar ul li:hover a{
+	transform: scale(1.2);
+    color: #5D1900;
+}
+
+.logo{
+	max-height:10vh;
+	align-items: center;
+	
+	display: flex;
+}
+
+.logo img{
+	height: 8vh;
+	border-radius:25px;
+	width: auto;	
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust space between icons */
+}
+
+.icons ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Adjust space between icons */
+}
+
+.icons ul li {
+    display: inline;
+}
+
+.icons ul li a {
+    color: #FF7C2E; /* Icon color */
+    text-decoration: none;
+    font-size: 24px; /* Size of the icons */
+    transition: color 0.3s ease;
+}
+
+.icons ul li a:hover {
+    color: #F25A00; /* Color when hovered */
+}
+
+
+
+#reservations {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1C1C1C;
+	background-image: url("../images/reservation.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+    color: #F4F4F4;
+}
+
+#reservations h2 {
+    font-family: 'Baskerville', serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+	text-shadow: 0 4px 15px #222;
+    color: #fff;
+	
+}
+
+#reservations p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+	background-color: rgba(255,124,46,0.43);
+	text-shadow: 2px 3px 3px #222;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 18px 36px;
+    background-color: #FF7C2E;
+    color: #F4F4F4;
+	text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 50px;
+	border:none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 124, 46, 0.4);
+    margin-top: 20px; 
+}
+
+.cta-button:hover {
+    background-color: #B14D0B;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(255, 124, 46, 0.6);
+}
+
+
+#seating-options {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #F4F4F4;
+}
+
+.option {
+    width: 45%;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.option h3 {
+    font-family: 'Baskerville', serif;
+    font-size: 2rem;
+    color: #B14D0B;
+    margin-bottom: 15px;
+}
+
+.option p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+#bookingForm {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+#bookingForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+#bookingForm h3 {
+  text-align: center;
+  color: #B14D0B;
+  margin-bottom: 20px;
+}
+
+#bookingForm label {
+  margin-top: 10px;
+  color: #333;
+}
+
+#bookingForm input, {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#bookingForm select{
+	padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#bookingForm button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #FF7C2E;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#bookingForm button:hover {
+  background-color: #B14D0B;
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    #seating-options {
+        flex-direction: column;
+    }
+
+    .option {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+main {
+    padding: 20px;
+}
+
+
+#contact{
+	margin-bottom: 70px;
+		color:#F4F4F4;
+	display:flex;
+	padding: 50px 15vh 0px 15vh;
+	justify-content: space-between;
+}
+
+#contact div{
+	display:inline-table;
+}
+
+#contact div ul{
+	justify-content: center;
+	margin: auto;
+}
+
+#contact div ul i{
+	color: #F4F4F4;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #FF7C2E;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+#backToTopBtn {
+    position: fixed; 
+    bottom: 15px; 
+    right: 20px; 
+    border: 0px; 
+    outline:solid rgba(154,5,8,0.72); 
+    background-color: #531d00; 
+    color: white;
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 50%; 
+    font-size: 18px; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: 0.3s ease;
+}
+
+#backToTopBtn:hover {
+    background-color: #b52d0b;
+	outline:solid #531d00;
+    transform: scale(1.3); 
+}
+
+@media (max-width: 750px) {
+  .pane {
+    width: 80%;
+  }
+}
+
+
+@media (max-width:450px){
+	.pane{
+		width:75%;
+	}
+}
+

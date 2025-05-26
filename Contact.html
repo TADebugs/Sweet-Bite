@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="css/style-contact.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU&display=swap');
+	</style>
+	
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+	
+</head>
+	
+	<div class="navbar">
+		
+		
+		<div class="logo">
+			<a href="index.html"><img src="images/logo2.png"></a>
+		</div>
+		
+		<div class="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">About Us</a></li>
+            </ul>
+        </div>
+		
+        <div class="icons">
+    <ul>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    </ul>
+	</div>
+</div>
+
+	
+<body>
+	<main>
+       <section id="business-data">
+            <h3>Our Growth</h3>
+            <canvas id="salesChart"></canvas>
+        </section>
+
+        <section id="location">
+            <h3>Find Us</h3>
+            <div id="map" ></div>
+        </section>
+		
+		 <section id="support-services">
+            <h3>Support Services</h3>
+            <div class="services-list">
+                <li>
+					<h1>Transportation</h1>
+                    <ul>
+                        <li><img src="images/valet.jpg"><div class="text"><h2>Valet Parking:</h2><p>Enjoy hassle-free arrival and departure.</p>
+						<p>Our professional valets ensure your vehicle’s safety.</p></div></li>
+                        <li><div class="text"><h2>Shuttle Service:</h2><p>Convenient transportation to and from local hotspots.</p>
+							<p>Comfortable rides with scheduled pick-ups and drop-offs.</p></div><img src="images/shuttle.jpg"></li>
+                        <li><img src="images/transit.jpg"><div class="text"><h2>Public Transit:</h2><p>Easy access via nearby bus and subway stations.</p>
+							<p>We’re just a short walk from major public transit hubs.</p></div></li>
+                    </ul>
+                </li>
+                <li>
+                   <h1>Merchendise</h1>
+                    <ul>
+                        <li><img src="images/bbq-sauce.jpg"><div class="text"><h2>BBQ Sauce:</h2><p>Take home our signature flavors in a bottle.</p>
+							<p>Perfect for adding authentic BBQ taste to your home cooking.</p></div></li>
+                        <li><div class="text"><h2>T-Shirt Merchandise:</h2><p>Show off your love for Sweet Bites BBQ.</p>
+							<p>Comfortable, stylish tees featuring our iconic logo.</p></div><img src="images/merchendise.jpg"></li>
+                        <li><img src="images/grill.jpg"><div class="text" style="margin-left: 20px; margin-right:0;"><h2>Grill Accessories:</h2><p>Elevate your home BBQ game with our pro tools.</p>
+							<p>From tongs to thermometers, we’ve got your grilling needs covered.</p></div></li>
+                    </ul>
+                </li>
+				<li>
+				<p style="font-size: 2rem; ">Contact us for purchase or enqiry.</p>
+					<p>Email Us : <a style="text-decoration: none;" href="tanmaydesai2126@gmail.com">here <i class="fa fa-envelope" style="font-size:22px"></i></a></p>
+				</li>
+            </div>
+        </section>
+		
+	</main>
+		
+    <footer>
+        <p>&copy; 2024 Sweet Bites BBQ. All rights reserved.</p>
+    </footer>
+		<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+    &#8679;
+	</button>
+    <script src="js/style-script.js"></script>
+</body>
+</html>

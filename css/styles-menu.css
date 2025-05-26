@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskerville&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap'); 
+		@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU&family=Rye&display=swap');
+
+body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+			justify-content: center;
+			align-items: center;
+            padding: 0;
+        }
+
+#home{
+
+	  
+	padding: 0px;
+	text-align: center;
+	margin-bottom: -90px;
+	
+}
+
+
+#home h2{
+	font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+	text-decoration-line: underline;
+	text-decoration-style:dotted;
+	text-underline-offset: 10px; 
+	text-decoration-color: grey;
+	font-size: 3rem;
+}
+
+#home .redirect{
+	margin-bottom: 6vh;
+	margin-left: -5vh;
+}
+
+#home .redirect ul{
+	display:flex;
+	list-style-type: none;
+	justify-content: center;
+	gap:20px;
+	border: none;
+	
+}
+
+#home .redirect ul a{
+	list-style-type: none;
+	color:#A8927E;
+	font-size: 1rem;
+	text-decoration: none;
+	border: none;
+}
+#home .redirect ul a:visited{
+	color:rgba(137,101,92,1.00);
+}
+
+        header {
+            background-color: #531d00;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            padding: 20px;
+			padding-bottom: 60px;
+        }
+
+		.menu-item {
+            margin-bottom: 20px;
+        }
+
+        .menu-section {
+            margin-bottom: 40px;
+        }
+        .menu-section h2 {
+            font-family: 'Baskerville', serif;
+            color: #B14D0B;
+			text-align: center;
+            border-bottom: 2px solid rgba(162,162,162,1.00);
+            padding-bottom: 10px;
+            font-size: 2.5rem;
+        }
+
+        .menu-item h3 {
+            font-family: "Playwrite HU", cursive;
+			font-optical-sizing: auto;
+			font-weight: 400;
+			font-style: normal;
+			text-decoration:underline;
+            font-size: 1.7rem;
+            margin: 0;
+            color: #994107;
+        }
+
+        .description {
+            font-family: 'Dancing Script', cursive; 
+            margin: 5px 0;
+            color: #994107;
+            font-size: 1.5rem;
+        }
+
+        .price {
+			font-family: 'Dancing Script', cursive;
+            font-weight: bold;
+			margin: 5px 0;
+            color: #270506;
+        }
+
+ul{
+	color:#F25A00;
+}
+
+

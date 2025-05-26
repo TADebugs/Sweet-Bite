@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now!</title>
+    <link rel="stylesheet" href="css/style-reservation.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<style>
+	@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU&display=swap');
+	</style>
+	
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+	
+</head>
+	
+	<div class="navbar">
+		
+		
+		<div class="logo">
+			<a href="index.html"><img src="images/logo2.png"></a>
+		</div>
+		
+		<div class="menubar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="contact.html">About Us</a></li>
+            </ul>
+        </div>
+		
+        <div class="icons">
+    <ul>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    </ul>
+	</div>
+</div>
+
+	
+<body>
+    <main>
+        <section id="home">
+            <h2>Welcome to Sweet Bites BBQ</h2>
+        </section>
+		
+		 <section id="reservations">
+            <h2>Reservations</h2>
+            <p>Pull up a chair and stay a while! We're excited to offer both indoor and outdoor seating weather permitting.</p>
+            <button class="cta-button">Book Your Table Now!</button>
+        </section>
+
+		<div id="bookingForm" style="display:none;">
+  <form>
+    <h3>Make a Reservation</h3>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <label for="tableType">Table Type:</label>
+    <select id="tableType" name="tableType" required>
+      <option value="">Select a table type</option>
+      <option value="indoor">Indoor</option>
+      <option value="outdoor">Outdoor</option>
+      <option value="bar">Bar</option>
+    </select>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="cardNumber">Card Number:</label>
+    <input type="text" id="cardNumber" name="cardNumber" required>
+
+    <button onclick="choice()" type="submit">Confirm Booking</button>
+  </form>
+</div>
+
+		
+        <section id="seating-options">
+            <div class="option">
+                <h3>Indoor Seating</h3>
+                <p>Enjoy our cozy indoor atmosphere with rustic decor and mouthwatering aromas.</p>
+            </div>
+            <div class="option">
+                <h3>Outdoor Seating</h3>
+                <p>Weather permitting, dine al fresco on our charming patio surrounded by greenery.</p>
+            </div>
+        </section> 
+
+        <section id="contact">
+			<div>
+            <h2>Visit Us</h2>
+				<p>123 Main Street,</p>
+				<p> Anytown, USA</p>
+			</div>
+			<div>
+			<h2>Dining Hours</h2>
+				<p>MONDAY  - THURSDAY  11:30 - 9:00</p>
+				<p> FRIDAY - SATURDAY  11:30 - 10:00</p>
+				<p>SUNDAY  11:30 - 9:00</p>
+			</div>
+			<div>
+			<h2>Contact Us</h2>
+				<p>Phone: (555) 123-4567</p>
+				<p>Email: info@sweetbitesbbq.com</p>
+			<section class="icons">
+				<ul>
+				<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</section>
+			</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sweet Bites BBQ. All rights reserved.</p>
+    </footer>
+		<button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">
+    &#8679;
+	</button>
+    <script src="js/script.js"></script>
+</body>
+</html>
