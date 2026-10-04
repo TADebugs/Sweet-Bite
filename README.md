@@ -47,7 +47,6 @@ python3 -m http.server 8000
 
 - The reservation form has no backend. Confirming a booking only shows an `alert()`; nothing is stored or sent.
 - The Google Maps script on the About Us page uses a placeholder API key, so no map loads.
-- `Contact.html` is linked as `contact.html` in the navbar, which works on case-insensitive systems but not on a case-sensitive server.
 
 ## License
 
