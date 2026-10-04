@@ -2,7 +2,7 @@
 
 Restaurant site for a fictional BBQ spot; menu, hours and a reservation form in plain HTML/CSS/JS.
 
-- **Live site:** https://sweetbite.tanmaydesai.xyz
+- **Live site:** https://sweetbite.tanmaydesai.xyz (hosted on GitHub Pages)
 - **Portfolio page:** https://tanmaydesai.xyz/sweet-bite
 
 ## About this project
@@ -20,7 +20,7 @@ This is one of my early front-end projects, built while I was learning HTML, CSS
 | Home | `index.html` | Welcome banner, links to the other pages, address and dining hours |
 | Menu | `menu.html` | Menu by section (specialities, sandwiches, sandos, sides, desserts) |
 | Reservation | `reservation.html` | Seating info and a booking form (name, time, table type, email, phone) |
-| About Us | `Contact.html` | Parking, shuttle and transit info, merchandise, contact link |
+| About Us | `contact.html` | Parking, shuttle and transit info, merchandise, contact link |
 
 ## Stack
 
@@ -50,4 +50,4 @@ python3 -m http.server 8000
 
 ## License
 
-No license file yet.
+MIT, see [LICENSE](LICENSE).
