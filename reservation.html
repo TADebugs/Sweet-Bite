@@ -10,6 +10,7 @@
 	@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU&display=swap');
 	</style>
 	
+	<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 	
 </head>
 	
@@ -52,7 +53,7 @@
         </section>
 
 		<div id="bookingForm" style="display:none;">
-  <form onsubmit="choice(); return false;">
+  <form>
     <h3>Make a Reservation</h3>
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required>
@@ -74,7 +75,10 @@
     <label for="phone">Phone:</label>
     <input type="tel" id="phone" name="phone" required>
 
-    <button type="submit">Confirm Booking</button>
+    <label for="cardNumber">Card Number:</label>
+    <input type="text" id="cardNumber" name="cardNumber" required>
+
+    <button onclick="choice()" type="submit">Confirm Booking</button>
   </form>
 </div>
 
