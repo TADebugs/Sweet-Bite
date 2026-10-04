@@ -7,7 +7,7 @@ Restaurant site for a fictional BBQ spot; menu, hours and a reservation form in 
 
 ## About this project
 
-This is one of my early front-end projects, built while I was learning HTML, CSS and JavaScript. "Sweet Bites BBQ" is made up: the address, phone number and email are placeholders, and nothing here is a real restaurant. The code is a learner's code, and the comments in `js/` say where I picked things up (W3Schools, Stack Overflow, and some help from AI). I've kept it as it was rather than polishing it into something it isn't.
+This is one of my early front-end projects, built while I was learning HTML, CSS and JavaScript. "Sweet Bites BBQ" is made up: the address and phone number are placeholders (the email on the About Us page is my real contact), and nothing here is a real restaurant. The code is a learner's code, and the comments in `js/` say where I picked things up (W3Schools, Stack Overflow, and some help from AI). I've kept it as it was rather than polishing it into something it isn't.
 
 ## Screenshots
 
@@ -46,7 +46,6 @@ python3 -m http.server 8000
 ## Things to know
 
 - The reservation form has no backend. Confirming a booking only shows an `alert()`; nothing is stored or sent.
-- The Google Maps script on the About Us page uses a placeholder API key, so no map loads.
 
 ## License
 
